@@ -91,5 +91,5 @@ router.get('/:typeshit', async (req,res)=>{
     }
   })
 
-
+//tanoy swar
 module.exports =  router;
