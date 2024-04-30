@@ -39,7 +39,7 @@ router.get('/:workType', async (req, res) => {
       const workType = req.params.workType; // Extracting the workType parameter from the request URL
       
       // Checking if the workType is one of the accepted values ('chef', 'manager', 'waiter')
-      if (workType == 'chef' || workType == 'manager' || workType == 'waiter') {
+      if (workType == 'chef' || workType == 'managar' || workType == 'waiter') {
          
           const responseWorktype = await Person.find({ work: workType }); // Querying the database for entries with the specified workType
           console.log('response fetched'); // Logging a message indicating successful data fetching

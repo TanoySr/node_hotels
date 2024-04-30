@@ -10,15 +10,6 @@ app.use(bodyParser.json());
 
 
 
-// const Person = require('./models/person');
-//const Menu = require('./models/menu');
-
-
-
-
-
-
-
 const personRoutes = require('./routes/personRoutes') ;
 app.use('/person',personRoutes);
 
